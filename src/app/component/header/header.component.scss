@@ -1,0 +1,38 @@
+.nav-item {
+  color: var(--grey);
+  font-weight: var(--font-400);
+  font-size: var(--small);
+  margin: 10px;
+  cursor: pointer;
+  position: relative;
+  display: inline-block;
+}
+
+.nav-item::before {
+  transition: 300ms;
+  height: 5px;
+  content: "";
+  position: absolute;
+  background-color: var(--red);
+}
+
+.nav-item + .active {
+  color: var(--red);
+}
+
+.nav-link::before {
+  width: 0;
+  top: 30px;
+}
+
+.nav-link:not(.active):not(.inactive):hover:before {
+  width: 100%;
+}
+
+.nav-item + .inactive:hover {
+  color: var(--red);
+}
+
+.outer{
+  width: 100%;
+}
