@@ -8,3 +8,6 @@ import { Component } from '@angular/core';
 export class AppComponent {
   title = 'zinger-website';
 }
+export class Constants {
+  public static frameworkGithubUrl = "https://github.com/ddlogesh/zinger-framework"
+}

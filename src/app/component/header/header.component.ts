@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { faGithub } from '@fortawesome/free-brands-svg-icons';
+import {Constants} from "../../app.component";
 
 @Component({
   selector: 'app-header',
@@ -7,9 +7,7 @@ import { faGithub } from '@fortawesome/free-brands-svg-icons';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-
-  faGithub = faGithub;
-  frameworkGithubUrl = "https://github.com/ddlogesh/zinger-framework"
+  frameworkGithubUrl = Constants.frameworkGithubUrl;
 
   constructor() { }
 

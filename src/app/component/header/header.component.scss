@@ -16,8 +16,8 @@
   background-color: var(--red);
 }
 
-.nav-item + .active {
-  color: var(--red);
+.nav-item + .active:before {
+  width: 100%;
 }
 
 .nav-link::before {
@@ -29,7 +29,7 @@
   width: 100%;
 }
 
-.nav-item + .inactive:hover {
+.nav-item i:hover {
   color: var(--red);
 }
 
