@@ -17,6 +17,7 @@ import { FeatureComponent } from './component/home/feature/feature.component';
 import { CardComponent } from './component/utils/card/card.component';
 import {MatGridListModule} from "@angular/material/grid-list";
 import {MatListModule} from "@angular/material/list";
+import { UseCaseComponent } from './component/home/use-case/use-case.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import {MatListModule} from "@angular/material/list";
     IntroComponent,
     ContributeComponent,
     FeatureComponent,
-    CardComponent
+    CardComponent,
+    UseCaseComponent
   ],
   imports: [
     BrowserModule,
