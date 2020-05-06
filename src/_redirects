@@ -1,1 +1,4 @@
-/docs/*            https://wizardly-spence-03a63b.netlify.app/docs/doc1/:splat 200!
+/js/*            https://wizardly-spence-03a63b.netlify.app/js/*:splat 304!
+/css/*           https://wizardly-spence-03a63b.netlify.app/css/*:splat 304!
+/img/*           https://wizardly-spence-03a63b.netlify.app/img/*:splat 200!
+/docs/*          https://wizardly-spence-03a63b.netlify.app/docs/*:splat 200!
