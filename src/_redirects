@@ -1,1 +1,1 @@
-/docs/*            https://wizardly-spence-03a63b.netlify.app/docs/doc1
+/docs/*            https://wizardly-spence-03a63b.netlify.app/docs/doc1/:splat 200!
