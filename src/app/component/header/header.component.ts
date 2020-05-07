@@ -9,6 +9,8 @@ import {Constants} from "../../app.component";
 export class HeaderComponent implements OnInit {
   frameworkGithubUrl = Constants.frameworkGithubUrl;
   apiDocsUrl = Constants.apiDocsUrl;
+  docsUrl = Constants.docsUrl;
+  guideUrl = Constants.guideUrl;
 
   constructor() { }
 

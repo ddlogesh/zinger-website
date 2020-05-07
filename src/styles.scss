@@ -135,6 +135,8 @@ $theme: mat-light-theme($primary, $accent, $warn);
 .red-title-700 {
   color: var(--red);
   font-weight: var(--font-700);
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .red-title-600 {

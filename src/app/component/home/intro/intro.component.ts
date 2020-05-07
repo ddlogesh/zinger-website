@@ -8,6 +8,9 @@ import {Constants} from "../../../app.component";
 })
 export class IntroComponent implements OnInit {
   frameworkGithubUrl = Constants.frameworkGithubUrl;
+  docsUrl = Constants.docsUrl;
+  logeshProfile = Constants.logeshProfile;
+  harshaProfile = Constants.harshaProfile;
 
   constructor() { }
 

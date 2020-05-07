@@ -8,6 +8,7 @@ import {Constants} from "../../../app.component";
 })
 export class ContributeComponent implements OnInit {
   frameworkGithubUrl = Constants.frameworkGithubUrl;
+  contributeUrl = Constants.contributeUrl;
 
   constructor() { }
 

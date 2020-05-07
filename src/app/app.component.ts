@@ -11,4 +11,10 @@ export class AppComponent {
 export class Constants {
   public static frameworkGithubUrl = "https://github.com/ddlogesh/zinger-framework"
   public static apiDocsUrl = "https://documenter.getpostman.com/view/6369926/Szmb6KVo"
+  public static docsUrl = "/docs/getting-started/architecture-overview"
+  public static guideUrl = "/docs/installation-guide/prerequisites"
+  public static contributeUrl = "/docs/contribution-guideline"
+
+  public static logeshProfile = "https://logeshdina.tech"
+  public static harshaProfile = "https://www.linkedin.com/in/harshavardhan-p"
 }
