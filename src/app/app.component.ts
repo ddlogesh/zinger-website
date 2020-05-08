@@ -17,7 +17,7 @@ export class Constants {
   public static docsUrl = "/docs/getting-started/architecture-overview"
   public static guideUrl = "/docs/installation-guide/prerequisites"
   public static UIManualUrl = "/docs/user-interface-manual/overview"
-  public static contributeUrl = "/docs/contribution-guideline"
+  public static contributeUrl = "/docs/community"
   public static caseStudyUrl = "/case-study"
   public static requestDemoUrl = ""
 
