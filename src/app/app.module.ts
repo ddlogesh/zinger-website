@@ -5,28 +5,34 @@ import {AppRoutingModule} from './app-routing.module';
 import {AppComponent} from './app.component';
 import {HomeComponent} from './component/home/home.component';
 import {HeaderComponent} from './component/header/header.component';
+import {HomeIntroComponent} from './component/home/intro/intro.component';
+import {ContributeComponent} from './component/home/contribute/contribute.component';
+import {FeatureComponent} from './component/home/feature/feature.component';
+import {CardComponent} from './component/utils/card/card.component';
+import {UseCaseComponent} from './component/home/use-case/use-case.component';
+import {CaseStudyComponent} from './component/case-study/case-study.component';
+import {CaseStudyIntroComponent} from './component/case-study/intro/intro.component';
 
 import {MatSlideToggleModule} from "@angular/material/slide-toggle";
 import {MatChipsModule} from "@angular/material/chips";
 import {MatCardModule} from "@angular/material/card";
-import { IntroComponent } from './component/home/intro/intro.component';
-import { ContributeComponent } from './component/home/contribute/contribute.component';
-import { FeatureComponent } from './component/home/feature/feature.component';
-import { CardComponent } from './component/utils/card/card.component';
 import {MatGridListModule} from "@angular/material/grid-list";
-import {MatListModule} from "@angular/material/list";
-import { UseCaseComponent } from './component/home/use-case/use-case.component';
+import {MatToolbarModule} from "@angular/material/toolbar";
+import { CompanyComponent } from './component/case-study/company/company.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent,
     HeaderComponent,
-    IntroComponent,
-    ContributeComponent,
+    HomeComponent,
+    HomeIntroComponent,
+    UseCaseComponent,
     FeatureComponent,
+    ContributeComponent,
+    CaseStudyComponent,
+    CaseStudyIntroComponent,
     CardComponent,
-    UseCaseComponent
+    CompanyComponent
   ],
   imports: [
     BrowserModule,
@@ -36,9 +42,11 @@ import { UseCaseComponent } from './component/home/use-case/use-case.component';
     MatChipsModule,
     MatCardModule,
     MatGridListModule,
-    MatListModule
+    MatToolbarModule,
   ],
   providers: [],
+  exports: [
+  ],
   bootstrap: [AppComponent]
 })
 

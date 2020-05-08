@@ -11,6 +11,7 @@ export class HeaderComponent implements OnInit {
   apiDocsUrl = Constants.apiDocsUrl;
   docsUrl = Constants.docsUrl;
   guideUrl = Constants.guideUrl;
+  caseStudyUrl = Constants.caseStudyUrl;
 
   constructor() { }
 

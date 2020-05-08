@@ -1,7 +1,21 @@
 <div class="card center-text">
-  <mat-card class="example-card">
+  <mat-card *ngIf="type=='NORMAL'" class="normal-card">
     <mat-card-title class="title-600 mid-small">{{title}}</mat-card-title>
     <img src="assets/pic/{{pic}}" style="width: 140px; height: 100px; margin-top: 20px"><br>
     <div class="top-20 smallest"><span class="title-100" [innerHTML]="desc"></span></div>
+  </mat-card>
+  <mat-card *ngIf="type=='CS'" class="cs-card">
+    <mat-card-title class="title-600 mid-small">{{title}}</mat-card-title>
+    <img src="assets/pic/{{pic}}" style="width: 70px; height: 70px; margin-top: 6px"><br>
+    <div class="top-10 smallest"><span class="title-100" [innerHTML]="desc"></span></div>
+    <div class="center top-10">
+      <a style="text-decoration: none" href="{{url}}">
+        <mat-chip *ngIf="url.includes('github.com')" class="cs-chip smallest weight-600"><i class="fab fa-github" style="color: var(--red)"></i>&nbsp;&nbsp;Github</mat-chip>
+        <mat-chip *ngIf="!url.includes('github.com')" class="cs-chip smallest weight-600"><i class="fab fa-chrome" style="color: var(--red)"></i>&nbsp;&nbsp;Website</mat-chip>
+      </a>
+    </div>
+  </mat-card>
+  <mat-card *ngIf="type=='EMPTY'" class="cs-card">
+    <div class="center-text" style="font-size: 130px; color: var(--grey)">?</div>
   </mat-card>
 </div>

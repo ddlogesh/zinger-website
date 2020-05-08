@@ -2,14 +2,14 @@ import { Component, OnInit } from '@angular/core';
 import {Constants} from "../../../app.component";
 
 @Component({
-  selector: 'app-home-intro',
+  selector: 'app-case-study-intro',
   templateUrl: './intro.component.html',
   styleUrls: ['./intro.component.scss']
 })
-export class HomeIntroComponent implements OnInit {
+export class CaseStudyIntroComponent implements OnInit {
   frameworkGithubUrl = Constants.frameworkGithubUrl;
-  docsUrl = Constants.docsUrl;
-  logeshProfile = Constants.logeshProfile;
+  UIManualUrl = Constants.UIManualUrl;
+  shrikanthProfile = Constants.shrikanthProfile;
   harshaProfile = Constants.harshaProfile;
 
   constructor() { }

@@ -1,11 +1,12 @@
-import { NgModule } from '@angular/core';
-import { Routes, RouterModule } from '@angular/router';
+import {NgModule} from '@angular/core';
+import {RouterModule, Routes} from '@angular/router';
+import {CaseStudyComponent} from "./component/case-study/case-study.component";
 import {HomeComponent} from "./component/home/home.component";
 
 const routes: Routes = [
-  {path:'samples', redirectTo: "/samples", pathMatch:"full"},
-  {path:'', component:HomeComponent},
-  {path:'**', redirectTo: "/"}
+  {path: 'case-study', component: CaseStudyComponent},
+  {path: '', component: HomeComponent},
+  {path: '**', redirectTo: "/"}
 ];
 
 @NgModule({
