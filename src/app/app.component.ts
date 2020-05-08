@@ -19,6 +19,7 @@ export class Constants {
   public static UIManualUrl = "/docs/user-interface-manual/overview"
   public static contributeUrl = "/docs/contribution-guideline"
   public static caseStudyUrl = "/case-study"
+  public static requestDemoUrl = ""
 
   public static logeshProfile = "https://logeshdina.tech"
   public static harshaProfile = "https://www.linkedin.com/in/harshavardhan-p"

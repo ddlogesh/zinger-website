@@ -10,6 +10,8 @@ export class CompanyComponent implements OnInit {
 
   zingerGithubUrl = Constants.zingerGithubUrl;
   zingerPartnerGithubUrl = Constants.zingerPartnerGithubUrl;
+  UIManualUrl = Constants.UIManualUrl;
+  requestDemoUrl = Constants.requestDemoUrl;
 
   constructor() { }
 
