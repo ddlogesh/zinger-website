@@ -5,12 +5,12 @@ import {HomeComponent} from "./component/home/home.component";
 
 const routes: Routes = [
   {path: '', component: HomeComponent},
-  {path: 'case-study', component: CaseStudyComponent, runGuardsAndResolvers: 'always'},
-  {path: '**', redirectTo: "/"}
+  {path: 'case-study', component: CaseStudyComponent},
+  {path: '**', redirectTo: ""}
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {onSameUrlNavigation: 'reload'})],
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
