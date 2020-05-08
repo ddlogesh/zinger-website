@@ -58,9 +58,11 @@ $theme: mat-light-theme($primary, $accent, $warn);
 .very-small {
   font-size: var(--very-small);
 }
+
 .mid-small {
   font-size: var(--mid-small);
 }
+
 .small {
   font-size: var(--small);
 }
@@ -96,6 +98,7 @@ $theme: mat-light-theme($primary, $accent, $warn);
 .right-100 {
   margin-right: 100px;
 }
+
 .right-50 {
   margin-right: 50px;
 }
@@ -124,11 +127,11 @@ $theme: mat-light-theme($primary, $accent, $warn);
   padding: 10px;
 }
 
-.weight-600{
+.weight-600 {
   font-weight: var(--font-600);
 }
 
-.light-grey{
+.light-grey {
   background-color: var(--light-grey);
 }
 
@@ -186,3 +189,21 @@ $theme: mat-light-theme($primary, $accent, $warn);
   justify-content: center;
 }
 
+.center-v
+{
+  text-align: center;
+}
+
+.center-v:before
+{
+  content: '';
+  height: 100%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.center-hv
+{
+  display: inline-block;
+  vertical-align: middle;
+}
