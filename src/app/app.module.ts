@@ -18,7 +18,8 @@ import {MatChipsModule} from "@angular/material/chips";
 import {MatCardModule} from "@angular/material/card";
 import {MatGridListModule} from "@angular/material/grid-list";
 import {MatToolbarModule} from "@angular/material/toolbar";
-import { CompanyComponent } from './component/case-study/company/company.component';
+import {CompanyComponent} from './component/case-study/company/company.component';
+import {HashLocationStrategy, LocationStrategy} from "@angular/common";
 
 @NgModule({
   declarations: [
@@ -44,9 +45,8 @@ import { CompanyComponent } from './component/case-study/company/company.compone
     MatGridListModule,
     MatToolbarModule,
   ],
-  providers: [],
-  exports: [
-  ],
+  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
+  exports: [],
   bootstrap: [AppComponent]
 })
 
