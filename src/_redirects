@@ -3,3 +3,8 @@ https://thezinger.netlify.app/docs/case-study   https://thezinger.netlify.app/#/
 https://thezinger.netlify.app/case-study        https://thezinger.netlify.app/#/case-study
 https://thezinger.netlify.app/app               https://thezinger.netlify.app/#/case-study
 https://thezinger.netlify.app/docs/*            https://zingerdocs.netlify.app/docs/:splat 200!
+https://zinger.pw/docs/api                      https://documenter.getpostman.com/view/6369926/Szmb6KVo
+https://zinger.pw/docs/case-study               https://zinger.pw/#/case-study
+https://zinger.pw/case-study                    https://zinger.pw/#/case-study
+https://zinger.pw/app                           https://zinger.pw/#/case-study
+https://zinger.pw/docs/*                        https://zingerdocs.netlify.app/docs/:splat 200!
