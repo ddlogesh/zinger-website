@@ -29,6 +29,7 @@
               "src/_redirects"
             ],
             "styles": [
+              "src/constant-styles.scss",
               "src/styles.scss"
             ],
             "scripts": []
