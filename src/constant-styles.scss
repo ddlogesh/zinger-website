@@ -107,6 +107,10 @@ $theme: mat-light-theme($primary, $accent, $warn);
   margin-right: 18px;
 }
 
+.top-100 {
+  margin-top: 100px;
+}
+
 .top-50 {
   margin-top: 50px;
 }
@@ -146,7 +150,7 @@ $theme: mat-light-theme($primary, $accent, $warn);
   * {
     --smallest: 8px;
     --very-small: 10px;
-    --mid-small: 12px;
+    --mid-small: 10px;
     --small: 12px;
     --medium: 12px;
     --large: 14px;
@@ -154,6 +158,10 @@ $theme: mat-light-theme($primary, $accent, $warn);
 
   .left-50 {
     margin-left: 14px;
+  }
+
+  .top-100 {
+    margin-top: 28px;
   }
 
   .top-50{

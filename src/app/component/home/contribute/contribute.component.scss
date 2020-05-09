@@ -1,3 +1,12 @@
+.contribute-c{
+  padding-top: 10px;
+}
+.center-c {
+  margin-left: 25%;
+  width: 50%;
+  justify-content: center
+}
+
 .chip {
   background-color: white;
   color: var(--red);
@@ -7,11 +16,34 @@
   cursor: pointer;
 }
 
-.active{
+.active {
   background-color: var(--red);
   color: white;
 }
 
-.chip:not(.active):hover{
+.chip:not(.active):hover {
   box-shadow: 0 0 7px 3px rgba(255, 65, 65, 0.25);
+}
+
+@media screen and (orientation: portrait) {
+  .contribute-c{
+    padding-top: 0;
+  }
+
+  .center-c {
+    margin-left: 5%;
+    width: 90%;
+  }
+
+  .center-c span{
+    font-size: 9px;
+  }
+
+  .chip {
+    padding: 6px 10px;
+  }
+
+  .very-small{
+    font-size: 7px;
+  }
 }
