@@ -1,0 +1,26 @@
+.feature-c {
+  padding-top: 20px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 10px;
+  margin-top: 50px;
+  margin-left: 8%;
+  margin-right: 6%;
+}
+
+@media screen and (orientation: portrait) {
+  .feature-c {
+    padding-top: 5px;
+  }
+
+  .flex-container {
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

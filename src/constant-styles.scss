@@ -137,13 +137,18 @@ $theme: mat-light-theme($primary, $accent, $warn);
   margin-right: 20%;
 }
 
+.width-96{
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
 @media screen and (orientation: portrait) {
   * {
-    --smallest: 10px;
+    --smallest: 8px;
     --very-small: 10px;
     --mid-small: 12px;
     --small: 12px;
-    //--medium: 10px;
+    --medium: 12px;
     --large: 14px;
   }
 
@@ -153,6 +158,10 @@ $theme: mat-light-theme($primary, $accent, $warn);
 
   .top-50{
     margin-top: 14px;
+  }
+
+  .top-20 {
+    margin-top: 10px;
   }
 
   .top-30{
@@ -167,5 +176,10 @@ $theme: mat-light-theme($primary, $accent, $warn);
   .width-60{
     margin-left: 5%;
     margin-right: 5%;
+  }
+
+  .width-96{
+    margin-left: -5px;
+    margin-right: -5px;
   }
 }

@@ -1,12 +1,12 @@
-<div class="card center-text">
+<div class="center-text">
   <mat-card *ngIf="type=='NORMAL'" class="normal-card">
     <mat-card-title class="title-600 mid-small">{{title}}</mat-card-title>
-    <img src="assets/pic/{{pic}}" style="width: 140px; height: 100px; margin-top: 20px"><br>
-    <div class="top-20 smallest"><span class="title-100" [innerHTML]="desc"></span></div>
+    <img src="assets/pic/{{pic}}">
+    <div class="top-20 smallest width-96"><span class="title-100" [innerHTML]="desc"></span></div>
   </mat-card>
   <mat-card *ngIf="type=='CS'" class="cs-card">
     <mat-card-title class="title-600 mid-small">{{title}}</mat-card-title>
-    <img src="assets/pic/{{pic}}" style="width: 70px; height: 70px; margin-top: 6px"><br>
+    <img src="assets/pic/{{pic}}" style="width: 70px; height: 70px; margin-top: 6px">
     <div class="top-10 smallest"><span class="title-100" [innerHTML]="desc"></span></div>
     <div class="center top-10">
       <a style="text-decoration: none" href="{{url}}">

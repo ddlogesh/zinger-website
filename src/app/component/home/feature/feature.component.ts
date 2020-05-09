@@ -1,4 +1,4 @@
-import {Component, Input, OnInit} from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 
 @Component({
   selector: 'app-feature',
@@ -11,5 +11,4 @@ export class FeatureComponent implements OnInit {
 
   ngOnInit(): void {
   }
-
 }

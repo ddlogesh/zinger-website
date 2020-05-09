@@ -4,10 +4,17 @@
   border-radius: 15px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
   margin-right: 55px;
+  margin-bottom: 55px;
   cursor: pointer;
 }
 
-.normal-card:hover{
+.normal-card img {
+  width: 140px;
+  height: 100px;
+  margin-top: 20px
+}
+
+.normal-card:hover {
   width: 230px;
   height: 230px;
   transition: 0.2s;
@@ -22,7 +29,7 @@
   cursor: pointer;
 }
 
-.cs-card:hover{
+.cs-card:hover {
   width: 180px;
   height: 199px;
   transition: 0.2s;
@@ -36,11 +43,41 @@
   border-radius: 30px;
   cursor: pointer;
 }
-.cs-chip:not(.active):hover{
+
+.cs-chip:not(.active):hover {
   box-shadow: 0 0 7px 3px rgba(255, 65, 65, 0.25);
 }
 
-.question{
+.question {
   font-size: 100px;
   color: var(--grey);
+}
+
+@media screen and (orientation: portrait) {
+  .normal-card {
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  mat-card mat-card-title{
+    font-size: 9px;
+  }
+
+  mat-card div{
+    font-size: 8px;
+  }
+
+  .normal-card img {
+    width: 50px;
+    height: 50px;
+    margin-top: 5px;
+  }
+
+  .normal-card:hover {
+    width: 120px;
+    height: 120px;
+  }
 }
