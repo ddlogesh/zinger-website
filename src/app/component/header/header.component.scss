@@ -8,6 +8,12 @@
   text-decoration: none;
 }
 
+.header {
+  background: white;
+  margin-top: -6px;
+  margin-right: 1px;
+}
+
 .nav-item::before {
   transition: 300ms;
   height: 5px;
@@ -33,6 +39,24 @@
   color: var(--red);
 }
 
-.outer{
+.outer {
   width: 100%;
+}
+
+@media screen and (orientation: portrait) {
+  .nav-item {
+    margin: 5px;
+  }
+
+  .header {
+    margin-top: -14px;
+  }
+
+  .nav-item::before {
+    height: 3px;
+  }
+
+  .nav-link::before {
+    top: 18px;
+  }
 }
