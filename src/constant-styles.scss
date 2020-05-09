@@ -149,11 +149,11 @@ $theme: mat-light-theme($primary, $accent, $warn);
 @media screen and (orientation: portrait) {
   * {
     --smallest: 8px;
-    --very-small: 10px;
-    --mid-small: 10px;
-    --small: 12px;
-    --medium: 12px;
-    --large: 14px;
+    --very-small: 9px;
+    --mid-small: 9px;
+    --small: 10px;
+    --medium: 10px;
+    --large: 12px;
   }
 
   .left-50 {
