@@ -1,15 +1,15 @@
-<div class="component light-grey" xmlns="http://www.w3.org/1999/html">
-  <br><br>
+<div class="component light-grey company-c">
+  <br>
   <div class="medium center-text">
     <span class="title-400">Who is using <span class="red-title-600">Zinger</span> Framework?</span>
   </div>
-  <mat-grid-list cols="1" rowHeight="310" class="top-10">
-    <mat-grid-tile>
-      <app-card type="CS" title="Zinger" desc="A customer side application to place and track food orders." pic="zinger-logo.png" url="{{zingerGithubUrl}}"></app-card>
-      <app-card type="CS" title="Zinger Partner" desc="A seller side application for order and inventory management." pic="zinger-partner-logo.png" url="{{zingerPartnerGithubUrl}}"></app-card>
-      <app-card type="EMPTY"></app-card>
-    </mat-grid-tile>
-  </mat-grid-list>
+
+  <div class="flex-container top-10">
+    <app-card type="CS" title="Zinger" desc="A customer side application to place and track food orders." pic="zinger-logo.png" url="{{zingerGithubUrl}}"></app-card>
+    <app-card type="CS" title="Zinger Partner" desc="A seller side application for order and item management." pic="zinger-partner-logo.png" url="{{zingerPartnerGithubUrl}}"></app-card>
+    <app-card type="EMPTY"></app-card>
+  </div>
+
   <br>
   <div class="medium center-text">
     <span class="title-400">Is your company using <span class="red-title-600">Zinger</span>?</span><br>
@@ -20,7 +20,7 @@
     <a style="text-decoration: none" href="{{requestDemoUrl}}"><mat-chip class="chip mid-small active weight-600">Request Demo</mat-chip></a>
   </div>
   <br><br><br>
-  <div class="very-small center-text pad-10">
+  <div class="very-small copyright center-text pad-10">
     <span class="grey-title-100">Copyright © 2020 Zinger – All rights reserved</span>
   </div>
 </div>

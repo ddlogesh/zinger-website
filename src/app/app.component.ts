@@ -19,7 +19,7 @@ export class Constants {
   public static UIManualUrl = "/docs/user-interface-manual/overview"
   public static contributeUrl = "/docs/community"
   public static caseStudyUrl = "/case-study"
-  public static requestDemoUrl = ""
+  public static requestDemoUrl = "https://harshavardhan98.typeform.com/to/w6pXt3"
 
   public static logeshProfile = "https://logeshdina.tech"
   public static harshaProfile = "https://www.linkedin.com/in/harshavardhan-p"

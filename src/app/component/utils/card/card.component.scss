@@ -26,7 +26,14 @@
   border-radius: 12px;
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
   margin-right: 55px;
+  margin-bottom: 55px;
   cursor: pointer;
+}
+
+.cs-card img {
+  width: 70px;
+  height: 70px;
+  margin-top: 6px;
 }
 
 .cs-card:hover {
@@ -54,20 +61,20 @@
 }
 
 @media screen and (orientation: portrait) {
+  mat-card mat-card-title {
+    font-size: 9px;
+  }
+
+  mat-card div {
+    font-size: 8px;
+  }
+
   .normal-card {
     width: 120px;
     height: 120px;
     border-radius: 5px;
     margin-right: 20px;
     margin-bottom: 20px;
-  }
-
-  mat-card mat-card-title{
-    font-size: 9px;
-  }
-
-  mat-card div{
-    font-size: 8px;
   }
 
   .normal-card img {
@@ -79,5 +86,32 @@
   .normal-card:hover {
     width: 120px;
     height: 120px;
+  }
+
+  .cs-card {
+    width: 120px;
+    height: 120px;
+    border-radius: 5px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
+
+  .cs-card img {
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+  }
+
+  .cs-card:hover {
+    width: 120px;
+    height: 120px;
+  }
+
+  .cs-chip {
+    padding: 6px 12px;
+  }
+
+  .center-v {
+    display: none;
   }
 }

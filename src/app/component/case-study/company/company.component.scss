@@ -1,3 +1,17 @@
+.company-c{
+  padding-top: 15px;
+}
+
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-left: 10px;
+  margin-top: 50px;
+  margin-left: 8%;
+  margin-right: 6%;
+}
+
 .chip {
   background-color: white;
   color: var(--red);
@@ -14,4 +28,25 @@
 
 .chip:not(.active):hover{
   box-shadow: 0 0 7px 3px rgba(255, 65, 65, 0.25);
+}
+
+@media screen and (orientation: portrait) {
+  .company-c{
+    padding-top: 0;
+  }
+
+  .flex-container {
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .chip{
+    padding: 6px 10px;
+  }
+
+  .copyright{
+    font-size: 7px;
+  }
 }

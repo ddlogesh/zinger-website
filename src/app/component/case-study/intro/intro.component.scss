@@ -1,3 +1,14 @@
+.intro-c{
+  margin-bottom: 65px;
+}
+.logo-img {
+  margin-top: 50px;
+  margin-left: 15px;
+  margin-right: 15px;
+  width: 180px;
+  height: 180px;
+}
+
 .chip {
   background-color: white;
   color: var(--red);
@@ -7,11 +18,29 @@
   cursor: pointer;
 }
 
-.active{
+.active {
   background-color: var(--red);
   color: white;
 }
 
-.chip:not(.active):hover{
+.chip:not(.active):hover {
   box-shadow: 0 0 7px 3px rgba(255, 65, 65, 0.25);
+}
+
+@media screen and (orientation: portrait) {
+  .intro-c{
+    margin-bottom: 0;
+  }
+
+  .logo-img {
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .chip {
+    padding: 6px 10px;
+  }
 }
