@@ -13,7 +13,7 @@ export class Constants {
   public static zingerGithubUrl = "https://github.com/shrikanth7698/Zinger-Android-App"
   public static zingerPartnerGithubUrl = "https://github.com/harshavardhan98/Zinger-Seller-App"
 
-  public static apiDocsUrl = "https://documenter.getpostman.com/view/6369926/Szmb6KVo"
+  public static apiDocsUrl = "https://documenter.getpostman.com/view/6369926/TVRoYmFY"
   public static docsUrl = "/docs/getting-started/architecture-overview"
   public static guideUrl = "/docs/installation-guide/prerequisites"
   public static UIManualUrl = "/docs/user-interface-manual/overview"
