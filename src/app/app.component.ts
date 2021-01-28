@@ -9,7 +9,7 @@ export class AppComponent {
   title = 'zinger-website';
 }
 export class Constants {
-  public static frameworkGithubUrl = "https://github.com/ddlogesh/zinger-framework"
+  public static frameworkGithubUrl = "https://github.com/zinger-framework/zinger-core"
   public static zingerGithubUrl = "https://github.com/shrikanth7698/Zinger-Android-App"
   public static zingerPartnerGithubUrl = "https://github.com/harshavardhan98/Zinger-Seller-App"
 
