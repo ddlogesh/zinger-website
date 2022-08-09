@@ -5,19 +5,12 @@
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
   margin-right: 55px;
   margin-bottom: 55px;
-  cursor: pointer;
 }
 
 .normal-card img {
   width: 140px;
   height: 100px;
   margin-top: 20px
-}
-
-.normal-card:hover {
-  width: 230px;
-  height: 230px;
-  transition: 0.2s;
 }
 
 .cs-card {
@@ -27,19 +20,12 @@
   box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
   margin-right: 55px;
   margin-bottom: 55px;
-  cursor: pointer;
 }
 
 .cs-card img {
   width: 70px;
   height: 70px;
   margin-top: 6px;
-}
-
-.cs-card:hover {
-  width: 180px;
-  height: 199px;
-  transition: 0.2s;
 }
 
 .cs-chip {

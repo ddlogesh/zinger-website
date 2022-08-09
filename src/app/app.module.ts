@@ -9,7 +9,6 @@ import {HomeIntroComponent} from './component/home/intro/intro.component';
 import {ContributeComponent} from './component/home/contribute/contribute.component';
 import {FeatureComponent} from './component/home/feature/feature.component';
 import {CardComponent} from './component/utils/card/card.component';
-import {UseCaseComponent} from './component/home/use-case/use-case.component';
 import {CaseStudyComponent} from './component/case-study/case-study.component';
 import {CaseStudyIntroComponent} from './component/case-study/intro/intro.component';
 
@@ -19,7 +18,6 @@ import {MatCardModule} from "@angular/material/card";
 import {MatGridListModule} from "@angular/material/grid-list";
 import {MatToolbarModule} from "@angular/material/toolbar";
 import {CompanyComponent} from './component/case-study/company/company.component';
-import {HashLocationStrategy, LocationStrategy} from "@angular/common";
 
 @NgModule({
   declarations: [
@@ -27,7 +25,6 @@ import {HashLocationStrategy, LocationStrategy} from "@angular/common";
     HeaderComponent,
     HomeComponent,
     HomeIntroComponent,
-    UseCaseComponent,
     FeatureComponent,
     ContributeComponent,
     CaseStudyComponent,
@@ -38,14 +35,13 @@ import {HashLocationStrategy, LocationStrategy} from "@angular/common";
   imports: [
     BrowserModule,
     AppRoutingModule,
-
     MatSlideToggleModule,
     MatChipsModule,
     MatCardModule,
     MatGridListModule,
     MatToolbarModule,
   ],
-  providers: [{provide: LocationStrategy, useClass: HashLocationStrategy}],
+  providers: [],
   exports: [],
   bootstrap: [AppComponent]
 })

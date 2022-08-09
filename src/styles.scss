@@ -62,23 +62,24 @@
   justify-content: center;
 }
 
-.center-v
-{
+.center-v {
   text-align: center;
 }
 
-.center-v:before
-{
+.center-v:before {
   content: '';
   height: 100%;
   display: inline-block;
   vertical-align: middle;
 }
 
-.center-hv
-{
+.center-hv {
   display: inline-block;
   vertical-align: middle;
+}
+
+.mat-chip.mat-standard-chip::after {
+  background: none;
 }
 
 @media screen and (orientation: portrait) {

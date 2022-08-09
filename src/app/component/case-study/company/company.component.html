@@ -7,19 +7,25 @@
   <div class="flex-container top-10">
     <app-card type="CS" title="Zinger" desc="A customer side application to place and track food orders." pic="zinger-logo.png" url="{{zingerGithubUrl}}"></app-card>
     <app-card type="CS" title="Zinger Partner" desc="A seller side application for order and item management." pic="zinger-partner-logo.png" url="{{zingerPartnerGithubUrl}}"></app-card>
-    <app-card type="EMPTY"></app-card>
   </div>
-
   <br>
   <div class="medium center-text">
     <span class="title-400">Is your company using <span class="red-title-600">Zinger</span>?</span><br>
-    <span class="very-small top-10">Send a mail to <a href="mailto:support@zinger.pw" class="red-title-600">support@zinger.pw</a> with a brief description to add your company logo.</span><br><br><br>
-    <span class="title-400">Want more <span class="red-title-600">customization</span> to suit your business needs?</span><br>
+    <span class="very-small top-10">Join our discord community and share with us a brief description to add your company logo.</span><br><br>
   </div>
-  <div class="center top-20 small">
-    <a style="text-decoration: none" href="{{requestDemoUrl}}"><mat-chip class="chip mid-small active weight-600">Request Demo</mat-chip></a>
+  <div class="center top-10 small">
+    <mat-chip-list>
+      <a href="{{frameworkGithubUrl}}/fork" style="text-decoration: none">
+        <mat-chip class="chip mid-small weight-600"><i class="fas fa-code-branch" style="color: var(--red)"></i>&nbsp;&nbsp;Fork
+          on Github
+        </mat-chip>
+      </a>
+      <a href="{{contributeUrl}}" style="text-decoration: none">
+        <mat-chip class="chip mid-small active weight-600">Join Community</mat-chip>
+      </a>
+    </mat-chip-list>
   </div>
-  <br><br><br>
+  <br><br>
   <div class="very-small copyright center-text pad-10">
     <span class="grey-title-100">Copyright © 2020 Zinger – All rights reserved</span>
   </div>

@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {Constants} from "../../../app.component";
+import {Constants} from '../../../app.component';
 
 @Component({
   selector: 'app-company',
@@ -10,7 +10,8 @@ export class CompanyComponent implements OnInit {
 
   zingerGithubUrl = Constants.zingerGithubUrl;
   zingerPartnerGithubUrl = Constants.zingerPartnerGithubUrl;
-  requestDemoUrl = Constants.requestDemoUrl;
+  frameworkGithubUrl = Constants.frameworkGithubUrl;
+  contributeUrl = Constants.contributeUrl;
 
   constructor() { }
 
