@@ -9,7 +9,8 @@
 
 .fab {
   font-family: 'Font Awesome 5 Brands';
-  font-weight: 400; }
+  font-weight: 400;
+}
 
 @font-face {
   font-family: 'Font Awesome 5 Free';
@@ -23,7 +24,8 @@
 .fa,
 .fas {
   font-family: 'Font Awesome 5 Free';
-  font-weight: 900; }
+  font-weight: 900;
+}
 
 @font-face {
   font-family: 'Font Awesome 5 Free';
@@ -37,7 +39,8 @@
 .fa,
 .fas {
   font-family: 'Font Awesome 5 Free';
-  font-weight: 900; }
+  font-weight: 900;
+}
 
 @font-face {
   font-family: 'Font Awesome 5 Free';
@@ -45,8 +48,10 @@
   font-weight: 400;
   font-display: block;
   src: url("fa-regular-400.eot");
-  src: url("fa-regular-400.eot?#iefix") format("embedded-opentype"), url("fa-regular-400.woff2") format("woff2"), url("fa-regular-400.woff") format("woff"), url("fa-regular-400.ttf") format("truetype"), url("fa-regular-400.svg#fontawesome") format("svg"); }
+  src: url("fa-regular-400.eot?#iefix") format("embedded-opentype"), url("fa-regular-400.woff2") format("woff2"), url("fa-regular-400.woff") format("woff"), url("fa-regular-400.ttf") format("truetype"), url("fa-regular-400.svg#fontawesome") format("svg");
+}
 
 .far {
   font-family: 'Font Awesome 5 Free';
-  font-weight: 400; }
+  font-weight: 400;
+}

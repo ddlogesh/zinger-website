@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import {Constants} from "../../app.component";
+import {Component, OnInit} from '@angular/core';
+import {Constants} from '../../app.component';
 
 @Component({
   selector: 'app-header',
@@ -13,7 +13,8 @@ export class HeaderComponent implements OnInit {
   guideUrl = Constants.guideUrl;
   caseStudyUrl = Constants.caseStudyUrl;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

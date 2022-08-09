@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
 import {Constants} from '../../../app.component';
 
 @Component({
@@ -13,7 +13,8 @@ export class CompanyComponent implements OnInit {
   frameworkGithubUrl = Constants.frameworkGithubUrl;
   contributeUrl = Constants.contributeUrl;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

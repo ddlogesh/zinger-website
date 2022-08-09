@@ -12,11 +12,11 @@ import {CardComponent} from './component/utils/card/card.component';
 import {CaseStudyComponent} from './component/case-study/case-study.component';
 import {CaseStudyIntroComponent} from './component/case-study/intro/intro.component';
 
-import {MatSlideToggleModule} from "@angular/material/slide-toggle";
-import {MatChipsModule} from "@angular/material/chips";
-import {MatCardModule} from "@angular/material/card";
-import {MatGridListModule} from "@angular/material/grid-list";
-import {MatToolbarModule} from "@angular/material/toolbar";
+import {MatSlideToggleModule} from '@angular/material/slide-toggle';
+import {MatChipsModule} from '@angular/material/chips';
+import {MatCardModule} from '@angular/material/card';
+import {MatGridListModule} from '@angular/material/grid-list';
+import {MatToolbarModule} from '@angular/material/toolbar';
 import {CompanyComponent} from './component/case-study/company/company.component';
 
 @NgModule({

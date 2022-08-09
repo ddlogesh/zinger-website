@@ -1,5 +1,5 @@
-import { Component, OnInit } from '@angular/core';
-import {Constants} from "../../../app.component";
+import {Component, OnInit} from '@angular/core';
+import {Constants} from '../../../app.component';
 
 @Component({
   selector: 'app-case-study-intro',
@@ -12,7 +12,8 @@ export class CaseStudyIntroComponent implements OnInit {
   shrikanthProfile = Constants.shrikanthProfile;
   harshaProfile = Constants.harshaProfile;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }

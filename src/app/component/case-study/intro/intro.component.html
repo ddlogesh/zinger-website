@@ -1,7 +1,7 @@
 <div class="component intro-c">
   <div class="center">
-    <img src="assets/pic/zinger-logo.png" class="logo-img">
-    <img src="assets/pic/zinger-partner-logo.png" class="logo-img">
+    <img class="logo-img" src="assets/pic/zinger-logo.png">
+    <img class="logo-img" src="assets/pic/zinger-partner-logo.png">
   </div>
   <div class="top-30 large center-text width-60">
     <span class="title-600">Introducing the Very First Application
@@ -13,7 +13,9 @@ one-stop solution for shop owners to manage and track their orders.</span>
   </div>
   <div class="center top-50 small">
     <mat-chip-list>
-      <a style="text-decoration: none" href="{{UIManualUrl}}"><mat-chip class="chip mid-small active weight-600">Get Started</mat-chip></a>
+      <a href="{{UIManualUrl}}" style="text-decoration: none">
+        <mat-chip class="chip mid-small active weight-600">Get Started</mat-chip>
+      </a>
     </mat-chip-list>
   </div>
 </div>

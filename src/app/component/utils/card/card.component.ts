@@ -13,7 +13,8 @@ export class CardComponent implements OnInit {
   @Input() url: string;
   @Input() type: string;
 
-  constructor() { }
+  constructor() {
+  }
 
   ngOnInit(): void {
   }
